@@ -1,6 +1,7 @@
 ---
 title: "I made a presentation about sustainability"
-date: "2019-11-10 03:17:22 +0100"
+published: "2019-11-10 03:17:22 +0100"
+updated: "2019-11-10 03:17:22 +0100"
 ---
 
 <iframe src="//speakerdeck.com/player/c58d321fa6794bd8894f1fa7b11dd997" width="710" height="399"></iframe>
