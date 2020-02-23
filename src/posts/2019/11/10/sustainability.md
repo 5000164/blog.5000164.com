@@ -2,6 +2,7 @@
 title: "I made a presentation about sustainability"
 published: "2019-11-10 03:17:22 +0100"
 updated: "2019-11-10 03:17:22 +0100"
+featuredImage: "../../../../images/2019/11/10/sustainability-featured.jpg"
 ---
 
 <iframe src="//speakerdeck.com/player/c58d321fa6794bd8894f1fa7b11dd997" width="710" height="399"></iframe>
