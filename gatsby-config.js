@@ -5,6 +5,11 @@ module.exports = {
     name: "Hiroshi Sugawara",
     profile:
       "Web Developer. \"Stably Unstable\" is my motto. After studying English in Australia, I am thinking about what happiness is, in Denmark.",
+    consent: {
+      text: "This website uses cookies. <a href='/privacy/'>Learn more</a>",
+      accept: "Accept",
+      decline: "Decline",
+    },
     siteUrl: `https://blog.5000164.com`,
     image: `/icon.png`,
     twitterUsername: `@5000164`,
@@ -49,9 +54,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: "UA-139878446-1",
+        googleAnalytics: {
+          trackingId: "UA-139878446-1",
+        },
       },
     },
   ],
