@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `5000164 is here`,
     description: `This blog is written about my life include technology.`,
+    name: "Hiroshi Sugawara",
+    profile:
+      "Web Developer. \"Stably Unstable\" is my motto. After studying English in Australia, I am thinking about what happiness is, in Denmark.",
     siteUrl: `https://blog.5000164.com`,
     image: `/icon.png`,
     twitterUsername: `@5000164`,
