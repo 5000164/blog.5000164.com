@@ -1,3 +1,5 @@
+const trackingId = "UA-139878446-1"
+
 module.exports = {
   siteMetadata: {
     title: `5000164 is here`,
@@ -15,6 +17,7 @@ module.exports = {
     twitterUsername: `@5000164`,
     repository: `https://github.com/5000164/blog.5000164.com`,
     profileUrl: `https://5000164.com`,
+    trackingId,
   },
   plugins: [
     {
@@ -57,7 +60,7 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: "UA-139878446-1",
+          trackingId,
           cookieName: "gatsby-gdpr-google-analytics",
           anonymize: true,
         },
