@@ -7,7 +7,7 @@ module.exports = {
     description: `This blog is written about my life include technology.`,
     name: "Hiroshi Sugawara",
     profile:
-      "Web Developer. \"Stably Unstable\" is my motto. After studying English in Australia, I am thinking about what happiness is, in Denmark.",
+      'Web Developer. "Stably Unstable" is my motto. After studying English in Australia, I am thinking about what happiness is, in Denmark.',
     consent: {
       text: "This website uses cookies. <a href='/privacy/'>Learn more</a>",
       accept: "Accept",
